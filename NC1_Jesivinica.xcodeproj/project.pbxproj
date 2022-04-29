@@ -13,6 +13,10 @@
 		8589E30728178DA4007AAA8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8589E30528178DA4007AAA8A /* Main.storyboard */; };
 		8589E30928178DA6007AAA8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8589E30828178DA6007AAA8A /* Assets.xcassets */; };
 		8589E30C28178DA6007AAA8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8589E30A28178DA6007AAA8A /* LaunchScreen.storyboard */; };
+		8589E31428179FD0007AAA8A /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8589E31328179FD0007AAA8A /* TimerViewController.swift */; };
+		8589E31628179FF4007AAA8A /* StopQuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8589E31528179FF4007AAA8A /* StopQuestionsViewController.swift */; };
+		8589E338281AEA4D007AAA8A /* TimerFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8589E337281AEA4D007AAA8A /* TimerFormViewController.swift */; };
+		8589E33A281B82EB007AAA8A /* Alarm Clock.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8589E339281B82EB007AAA8A /* Alarm Clock.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		8589E30828178DA6007AAA8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8589E30B28178DA6007AAA8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8589E30D28178DA6007AAA8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8589E31328179FD0007AAA8A /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		8589E31528179FF4007AAA8A /* StopQuestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopQuestionsViewController.swift; sourceTree = "<group>"; };
+		8589E337281AEA4D007AAA8A /* TimerFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerFormViewController.swift; sourceTree = "<group>"; };
+		8589E339281B82EB007AAA8A /* Alarm Clock.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Alarm Clock.mp3"; path = "../../../Downloads/Alarm Clock.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +67,13 @@
 				8589E2FF28178DA4007AAA8A /* AppDelegate.swift */,
 				8589E30128178DA4007AAA8A /* SceneDelegate.swift */,
 				8589E30328178DA4007AAA8A /* ViewController.swift */,
+				8589E31328179FD0007AAA8A /* TimerViewController.swift */,
+				8589E31528179FF4007AAA8A /* StopQuestionsViewController.swift */,
+				8589E337281AEA4D007AAA8A /* TimerFormViewController.swift */,
 				8589E30528178DA4007AAA8A /* Main.storyboard */,
 				8589E30828178DA6007AAA8A /* Assets.xcassets */,
 				8589E30A28178DA6007AAA8A /* LaunchScreen.storyboard */,
+				8589E339281B82EB007AAA8A /* Alarm Clock.mp3 */,
 				8589E30D28178DA6007AAA8A /* Info.plist */,
 			);
 			path = NC1_Jesivinica;
@@ -127,6 +139,7 @@
 			files = (
 				8589E30C28178DA6007AAA8A /* LaunchScreen.storyboard in Resources */,
 				8589E30928178DA6007AAA8A /* Assets.xcassets in Resources */,
+				8589E33A281B82EB007AAA8A /* Alarm Clock.mp3 in Resources */,
 				8589E30728178DA4007AAA8A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8589E31428179FD0007AAA8A /* TimerViewController.swift in Sources */,
 				8589E30428178DA4007AAA8A /* ViewController.swift in Sources */,
 				8589E30028178DA4007AAA8A /* AppDelegate.swift in Sources */,
 				8589E30228178DA4007AAA8A /* SceneDelegate.swift in Sources */,
+				8589E338281AEA4D007AAA8A /* TimerFormViewController.swift in Sources */,
+				8589E31628179FF4007AAA8A /* StopQuestionsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
